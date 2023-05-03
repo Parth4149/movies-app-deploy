@@ -11,10 +11,9 @@ const App = () => {
     <div className="root">
       <CssBaseline />
       <NavBar theme={theme} />
-
       <main className="content">
         <Routes>
-          <Route path="/movies-app-deploy/" element={<Movies theme={theme} />} />
+          <Route path="/" element={<Movies theme={theme} />} />
           <Route path="/approved" element={<Movies theme={theme} />} />
           <Route
             path="/movie/:id"
