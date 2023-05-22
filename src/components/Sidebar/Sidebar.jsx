@@ -44,7 +44,7 @@ const Sidebar = ({ theme, setMobileOpen }) => {
   const color = theme.palette.primary.dark;
 
   return (
-    <>
+    <section className="sidebar">
       <Link to="/movies-app-deploy/" className="logo_container">
         <Logo color={color} />
       </Link>
@@ -100,7 +100,7 @@ const Sidebar = ({ theme, setMobileOpen }) => {
           ))
         )}
       </List>
-    </>
+    </section>
   );
 };
 
